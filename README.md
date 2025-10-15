@@ -1,34 +1,41 @@
-Desafio 1 - Aplicação bancária
-Solicitação
-Faça uma aplicação bancária que permita transferências de valores. O sistema deve conter as seguintes funcionalidades (mínimas):
-Cadastro de conta bancária
-Numero da conta, numero agencia, cliente, saldo, limite, tipo da conta
-Depósito
-Retirada (saque)
-Alteração de limite
-Transferências
-Pensem em limitar o valor de acordo com o horário;
-Exportação de histórico de transações (CSV).
- 
-A aplicação deve conter um menu via terminal para seleção da operação desejada.
-Considerações:
-Perceba que a descrição do sistema foi feita de forma genérica, propositalmente para encorajar a extensão de funcionalidades de acordo com a sua necessidade.
-As funcionalidades descritas acima são básicas e mandatórias para o funcionamento e aceite da entrega.
-Utilize o máximo de conceitos abordados durante o curso. Ex: menus com Scanner, boas práticas de nomenclatura, herança, listas, interfaces, trabalho com arquivos, etc.
-Não há necessidade de persistência em bancos de dados. Pensem numa estrutura utilizando listas/mapas em memória para armazenamento.
-Os relacionamentos entre as classes (entidades do sistema) ficam ao seu critério. Utilizem quantas classes e atributos julgarem necessário para a modelagem.
-Sigam o princípio: baixo acoplamento, alta coesão.
-Para estruturar seu código, imagine a aplicação como um entregável que possa ser evoluído sem a necessidade de grande refatoração. Ex: não tenho um banco de dados hoje ou uma API Rest para acesso às operações, mas posso construir um módulo sem afetar O DOMÍNIO do sistema (classes de negócio e entidades).
-Pensem que toda operação repetitiva pode ter sua própria classe ou método, como apresentação das informações na tela (ou input), que pode ter dados como parâmetros.
-Requisitos:
-O projeto deve estar em repositório público no GitHub.
-O projeto deve conter um README.md com instruções de execução e operação da aplicação.
-Desenhe um diagrama de classes e um de sequência para explicar o funcionamento do sistema. O mesmo deve estar na página explicativa (README) do projeto.
-Sugestão: utilizem MermaidJS: https://github.com/mermaid-js/mermaid/blob/develop/README.md
+## Desafio 1 - Aplicação Bancária
 
- 
-Datas:
-Seguindo o cronograma do programa Renew your Career - Java, a data final para envio é 19/03/2024 23:59.
-Bom desafio à todos!
-mermaid/README.md at develop · mermaid-js/mermaid
-Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown - mermaid-js/mermaid
+### Objetivo
+Desenvolver uma aplicação bancária que permita transferências de valores entre contas, com funcionalidades essenciais para gestão bancária.
+
+### Funcionalidades Mínimas
+
+- Cadastro de conta bancária (número da conta, número da agência, cliente, saldo, limite, tipo da conta)
+- Depósito
+- Retirada (saque)
+- Alteração de limite
+- Transferências (considere limitar o valor de acordo com o horário)
+- Exportação de histórico de transações (CSV)
+
+> A aplicação deve conter um menu via terminal para seleção da operação desejada.
+
+### Considerações
+
+- A descrição do sistema é propositalmente genérica para encorajar a extensão de funcionalidades.
+- As funcionalidades acima são obrigatórias para o aceite da entrega.
+- Utilize conceitos como menus com Scanner, boas práticas de nomenclatura, herança, listas, interfaces, trabalho com arquivos, etc.
+- Não é necessário persistência em bancos de dados; utilize listas/mapas em memória.
+- Os relacionamentos entre as classes ficam a critério do desenvolvedor.
+- Siga o princípio de baixo acoplamento e alta coesão.
+- Estruture o código para facilitar futuras evoluções (ex: adicionar banco de dados ou API REST sem afetar o domínio).
+- Considere criar métodos ou classes para operações repetitivas, como apresentação de informações na tela.
+
+### Requisitos
+
+- O projeto deve estar em repositório público no GitHub.
+- O projeto deve conter um README.md com instruções de execução e operação da aplicação.
+- Desenhe um diagrama de classes e um de sequência para explicar o funcionamento do sistema (pode ser feito com MermaidJS).
+
+> Sugestão: utilize MermaidJS para diagramas: https://github.com/mermaid-js/mermaid/blob/develop/README.md
+
+### Datas
+
+- Data final para envio: **19/03/2024 23:59** (conforme cronograma do programa Renew your Career - Java)
+
+---
+Bom desafio a todos!
